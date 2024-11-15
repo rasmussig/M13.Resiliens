@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "6WhBJkXI0k5j9QaQdnr4gQR7ec57XsmIHORW6bg7Y5/4CnNhR2A4/M8eLS+6HGtavcI6lC1Sk0aABeNbzYv+Cg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rasmu\\OneDrive\\Skrivebord\\EAA - Noter\\4Semester\\It-Arkitektur\\M13.Resiliens\\CBService\\CBService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rasmu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\rasmu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\rasmu\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\rasmu\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\rasmu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\rasmu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
