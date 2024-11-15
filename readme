@@ -1,6 +1,20 @@
-Resilient ASP.NET Core Service with Nginx Gateway
-Projektoversigt
-Dette projekt demonstrerer en resilient opsætning for en ASP.NET Core-service containeriseret med Docker og beskyttet af en Nginx API-gateway. Projektet indeholder to instanser af ASP.NET Core-servicen med forskellige konfigurationer, som håndteres via Nginx til load balancing og circuit breaking.
+# Resilient ASP.NET Core Service with Nginx Gateway
+
+## Projektoversigt
+
+Dette projekt demonstrerer en resilient opsætning for en ASP.NET Core-service, containeriseret med Docker og beskyttet af en Nginx API-gateway. Projektet omfatter to instanser af ASP.NET Core-servicen med forskellige konfigurationer, som håndteres via Nginx til både load balancing og circuit breaking.
+
+## Projektstruktur
+
+Her er en oversigt over projektets mappestruktur:
+
+```plaintext
+project-root/
+├── CBService/              # ASP.NET Core service med Dockerfile
+│   └── Dockerfile
+├── DockerCompose/          # Docker Compose opsætning
+│   ├── docker-compose.yml
+│   └── nginx.conf          # Nginx-konfiguration
 
 docker compose up -d
 docker compose down
