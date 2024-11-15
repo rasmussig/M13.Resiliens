@@ -58,6 +58,8 @@ Nginx vil automatisk balancere trafikken mellem `servicea` og `serviceb` og fung
 Når `servicea` fejler, vil Nginx videresende anmodningen til `serviceb` uden at returnere en fejl til klienten. For at ændre fejlkriteriet kan `proxy_next_upstream`-direktivet i `nginx.conf` justeres til at skifte ved andre fejlkoder (f.eks. `http_500`).
 
 
-docker compose up -d
-docker compose down
+
+EXTRA note:  
+docker compose up -d  
+docker compose down  
 curl http://localhost:4000/CBService/GetService
