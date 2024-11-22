@@ -64,4 +64,4 @@ docker compose up -d
 docker compose down  
 curl http://localhost:4000/CBService/GetService
 for i in {1..10}; do \
-curl -sk https://localhost:<port>/CBService/GetService; echo -e ''; done
+curl -sk https://localhost:4000/CBService/GetService; echo -e ''; done
