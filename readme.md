@@ -53,7 +53,7 @@ For at køre projektet, følg disse trin:
 
 Nginx vil automatisk balancere trafikken mellem `servicea` og `serviceb` og fungerer som en circuit breaker ved at skifte til `serviceb`, hvis `servicea` fejler.
 
-## Observér Circuit Breaking
+## Observér Circuit Breaking (Stabilitetsmønster)
 
 Når `servicea` fejler, vil Nginx videresende anmodningen til `serviceb` uden at returnere en fejl til klienten. For at ændre fejlkriteriet kan `proxy_next_upstream`-direktivet i `nginx.conf` justeres til at skifte ved andre fejlkoder (f.eks. `http_500`).
 
