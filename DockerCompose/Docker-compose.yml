@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   servicea:
-    image: cbservice_compose
+    image: M_13_Resiliens_cbservice_compose
     build:
       context: ../CBService
       dockerfile: Dockerfile
@@ -12,7 +12,7 @@ services:
       - "8080"
 
   serviceb:
-    image: cbservice_compose
+    image: M_13_Resiliens_cbservice_compose
     build:
       context: ../CBService
       dockerfile: Dockerfile

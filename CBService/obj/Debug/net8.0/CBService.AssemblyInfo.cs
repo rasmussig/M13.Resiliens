@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CBService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+199fdc63e8e1623a0ed4d28f17400b7db92a8291")]
 [assembly: System.Reflection.AssemblyProductAttribute("CBService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CBService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
