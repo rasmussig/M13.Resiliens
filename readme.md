@@ -59,7 +59,9 @@ Når `servicea` fejler, vil Nginx videresende anmodningen til `serviceb` uden at
 
 
 
-EXTRA note:  
+EKSTRA noter:  
 docker compose up -d  
 docker compose down  
 curl http://localhost:4000/CBService/GetService
+for i in {1..10}; do \
+curl -sk https://localhost:<port>/CBService/GetService; echo -e ''; done
